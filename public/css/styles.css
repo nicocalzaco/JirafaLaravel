@@ -176,8 +176,9 @@ h1 {
 }
 .nav-header {
   z-index: 55555555555555;
+  box-sizing: border-box;
   position: fixed;
-  background-color: #eee;
+  right: 10px;
 }
 
 .icon-home-navbar {
@@ -289,6 +290,7 @@ h1 {
 
 #section-estilos {
   background-color: rgba(2, 2, 2, 1);
+  display: block;
 }
 
 article.estilo {
@@ -537,10 +539,13 @@ label #msg {
 }*/
 
 .title {
-  display: inline-block;
+  display: block;
   width: 100%;
   color: #efefef;
   font-size: 18px;
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 5px;
 }
 button:hover,
 a:hover {
@@ -584,10 +589,7 @@ a:hover {
     margin: 0;
     padding: 14.5px 10px;
   }
-  .menu li:nth-last-child(1) {
-    float: right;
-    font-size: 1.2em;
-  }
+
   .btn-home {
     color: #faa914;
     font-size: 1.2em;
@@ -663,5 +665,6 @@ a:hover {
     font-size: 18px;
     position: absolute;
     bottom: 0;
+    padding-bottom: 5px;
   }
 }
