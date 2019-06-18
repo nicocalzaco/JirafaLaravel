@@ -21,7 +21,7 @@
 <body>
   <header class="nav-header">
       <input type="checkbox" id="abrir-cerrar" name="abrir-cerrar" value="">
-      <label for="abrir-cerrar"><a href="#home" class="btn-home"><i class="fa fa-home"></i></a><span class="abrir">&#9776;</span><span class="cerrar">&#9776; Cerrar</span></label>
+      <label for="abrir-cerrar"><a href="/" class="btn-home"><i class="fa fa-home"></i></a><span class="abrir">&#9776;</span><span class="cerrar">&#9776; Cerrar</span></label>
       <div id="sidebar" class="sidebar">
         <div id="sidebar" class="sidebar">
             <ul class="menu">
