@@ -8,8 +8,8 @@
   <!-- CSRF Token -->
   <meta name="csrf-token" content="{{ csrf_token() }}">
 
-  <title>{{ config('app.name', 'Jirafa Brew House') }}</title>
-  <!--<title>jirafa BrewHouse</title>-->
+  <!-- Title de Pagina-->
+  <title>@yield('title')</title>
 
   <!-- Styles -->
   <link href="/css/styles.css" rel="stylesheet">

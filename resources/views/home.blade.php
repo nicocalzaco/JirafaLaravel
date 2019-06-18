@@ -1,5 +1,9 @@
 @extends('master')
 
+@section('title')
+  Jirafa Brew House
+@endsection
+
 <!--Aca esta el section main de home-->
 
 @section('main')

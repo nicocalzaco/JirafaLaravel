@@ -1,5 +1,9 @@
 @extends('master')
 
+@section('title')
+  Register
+@endsection
+
 @section('main')
 <div class="container">
     <div class="row">

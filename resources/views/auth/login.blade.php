@@ -1,5 +1,9 @@
 @extends('master')
 
+@section('title')
+  Login
+@endsection
+
 @section('main')
 <div class="section-forms">
   <div class="formulario">
